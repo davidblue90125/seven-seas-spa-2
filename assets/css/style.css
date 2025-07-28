@@ -1,0 +1,14 @@
+/* Navbar Styles */
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
+/* Navbar text color */
+.navbar .nav-link {
+    color: #3B2F2F !important;
+}
+
+.navbar-brand {
+    color: #3B2F2F !important;
+}
+
