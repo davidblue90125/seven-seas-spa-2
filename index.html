@@ -12,13 +12,15 @@
     
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS Link -->
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
           <img src="assets/images/AIIAB_4_2_1_1.png" alt="Seven Seas Spa Logo" width="30" class="me-2">
           Seven Seas Spa
@@ -60,6 +62,196 @@
         </div>
     </section>
     <!-- Hero Section End -->
+
+    <!-- Our Services Section Start -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold">Our Services</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Yoga Classes Card -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/yoga.png" class="card-img-top" alt="Yoga Classes">
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Classes</h5>
+                            <p class="card-text">Improve your flexibility and reduce stress with our yoga classes.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Nutritional Advice Card -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/nutrition.png" class="card-img-top" alt="Nutritional Advice">
+                        <div class="card-body">
+                            <h5 class="card-title">Nutritional Advice</h5>
+                            <p class="card-text">Get  personalized nutritional advice to help you eat healthier.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mental Health Support Card -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/mental_health.png" class="card-img-top" alt="Mental Health Support">
+                        <div class="card-body">
+                            <h5 class="card-title">Mental Health Support</h5>
+                            <p class="card-text">We offer support and resources to help you take care of your mental health.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Wellness Programs Card -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/wellness.png" class="card-img-top" alt="Wellness Programs">
+                        <div class="card-body">
+                            <h5 class="card-title">Wellness Programs</h5>
+                            <p class="card-text">Join our wellness programs to improve your overall health and wellbeing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Services Section End -->
+
+    <!-- Wellness Tips Section Start -->
+    <section id="wellness-tips" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold">Wellness Tips</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="lead mb-4">Here are some simple yet effective tips to help you maintain balance and well-being in your daily life.</p>
+                    <ul class="wellness-tips-list">
+                        <li><strong>Stay Hydrated:</strong> Drink at least 8 glasses of water daily to keep your body functioning optimally and your skin glowing.</li>
+                        <li><strong>Practice Deep Breathing:</strong> Take 5 minutes each day for deep breathing exercises to reduce stress and improve mental clarity.</li>
+                        <li><strong>Move Your Body:</strong> Incorporate 30 minutes of physical activity into your routine, whether it's walking, yoga, or dancing.</li>
+                        <li><strong>Prioritize Sleep:</strong> Aim for 7-9 hours of quality sleep each night to allow your body and mind to recover and rejuvenate.</li>
+                        <li><strong>Eat Mindfully:</strong> Choose whole, nutritious foods and eat slowly to better appreciate your meals and support digestive health.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Wellness Tips Section End -->
+
+    <!-- Testimonials Section Start -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold mb-5">Testimonials</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Testimonial 1 -->
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-center p-4">
+                                    <div class="testimonial-image mb-3">
+                                        <img src="assets/images/emily_johnson.png" alt="Emily Johnson" class="rounded-circle" width="80" height="80">
+                                    </div>
+                                    <blockquote class="blockquote mb-4">
+                                        <p class="mb-0">"Seven Seas Spa transformed my approach to wellness. The yoga classes and mental health support have been life-changing. I feel more balanced and at peace than ever before."</p>
+                                    </blockquote>
+                                    <footer class="blockquote-footer">
+                                        <strong>Emily Johnson</strong> <cite title="Source Title">Wellness Program Participant</cite>
+                                    </footer>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-4">
+                                    <div class="testimonial-image mb-3">
+                                        <img src="assets/images/john_doe.png" alt="John Doe" class="rounded-circle" width="80" height="80">
+                                    </div>
+                                    <blockquote class="blockquote mb-4">
+                                        <p class="mb-0">"The nutritional advice I received at Seven Seas Spa completely changed my relationship with food. The personalized guidance helped me achieve my health goals naturally."</p>
+                                    </blockquote>
+                                    <footer class="blockquote-footer">
+                                        <strong>John Doe</strong> <cite title="Source Title">Nutrition Counseling Client</cite>
+                                    </footer>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-4">
+                                    <div class="testimonial-image mb-3">
+                                        <img src="assets/images/jane_smith.png" alt="Jane Smith" class="rounded-circle" width="80" height="80">
+                                    </div>
+                                    <blockquote class="blockquote mb-4">
+                                        <p class="mb-0">"Seven Seas Spa is my sanctuary. The holistic approach to wellness and the caring staff make every visit a rejuvenating experience. I highly recommend their services."</p>
+                                    </blockquote>
+                                    <footer class="blockquote-footer">
+                                        <strong>Jane Smith</strong> <cite title="Source Title">Regular Spa Client</cite>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Carousel Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        
+                        <!-- Carousel Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-text mb-0">&copy; 2025 Seven Seas Spa. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links text-md-end">
+                        <a href="#" class="social-link me-3" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link me-3" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link me-3" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
 
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

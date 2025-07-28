@@ -1,4 +1,11 @@
 /* Navbar Styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .navbar .nav-link.active {
     font-weight: bold;
 }
@@ -54,5 +61,131 @@
 .hero-section p {
     color: #FFEBD4;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Services Section Styles */
+#services {
+    margin-top: 3rem;
+}
+
+#services h2 {
+    font-family: 'Handlee', cursive;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+#services .card-title {
+    font-family: 'Handlee', cursive;
+}
+
+#services .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#services .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+#services .card-img-top {
+    height: 200px !important;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Wellness Tips Section Styles */
+#wellness-tips h2 {
+    font-family: 'Handlee', cursive;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#wellness-tips .lead {
+    text-align: left;
+}
+
+.wellness-tips-list {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.wellness-tips-list li {
+    margin-bottom: -0.2rem;
+    padding-left: 0.5rem;
+}
+
+/* Testimonials Section Styles */
+#testimonials h2 {
+    font-family: 'Handlee', cursive;
+    text-align: left;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-image img {
+    object-fit: cover;
+    border: 3px solid #3B2F2F;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #3B2F2F;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-indicators button {
+    background-color: #3B2F2F;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #6F4E37;
+    color: #FFEBD4;
+}
+
+.footer-text {
+    color: #FFEBD4;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social-link {
+    color: #FFEBD4;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
+/* Responsive footer */
+@media (max-width: 768px) {
+    .social-links {
+        justify-content: center;
+        margin-top: 1rem;
+    }
 }
 
